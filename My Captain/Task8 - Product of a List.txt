@@ -1,0 +1,9 @@
+list1 = input("Enter a list numbers separated by space: ")
+list2 = list1.split()
+print("user list is ", list2)
+
+print("Calculating sum of element of input list")
+Product = 1
+for num in list2:
+    Product *= int(num)
+print("Product = ", Product)

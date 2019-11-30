@@ -1,0 +1,3 @@
+a = input("Enter a word ")
+print("Your word in Upper Case ", a.upper())
+print("Your word in Lower Case ", a.lower())
